@@ -1,0 +1,202 @@
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="shortcut icon" href="logo.jpg">
+<link rel="stylesheet" href="menu.css">
+<title>PROMOCIONES-FNAF SECURITY BREACH PIZZERÍA </title>
+<style type="text/css">
+
+
+
+
+.slide {
+                position: relative;
+                box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.64);
+                margin-top: 26px;
+                height: 100%;
+                
+                
+            }
+            .slide-inner {
+                position: relative;
+                overflow: hidden;
+                width: 47%;
+                height: 100%;
+                margin: auto;
+                padding: auto;
+            }
+            .slide-open:checked + .slide-item {
+                position: static;
+                opacity: 100;
+            }
+            .slide-item {
+                position: absolute;
+                opacity: 0;
+                -webkit-transition: opacity 0.6s ease-out;
+                transition: opacity 0.6s ease-out;
+            }
+            .slide-item img {
+                display: block;
+                height: auto;
+                max-width: 100%;
+            }
+            .slide-control {
+                background: rgba(0, 0, 0, 0.28);
+                border-radius: 50%;
+                color: #fff;
+                cursor: pointer;
+                display: none;
+                font-size: 40px;
+                height: 40px;
+                line-height: 35px;
+                position: absolute;
+                top: 50%;
+                -webkit-transform: translate(0, -50%);
+                cursor: pointer;
+                -ms-transform: translate(0, -50%);
+                transform: translate(0, -50%);
+                text-align: center;
+                width: 40px;
+                z-index: 10;
+            }
+            .slide-control.prev {
+                left: 2%;
+            }
+            .slide-control.next {
+                right: 2%;
+            }
+            .slide-control:hover {
+                background: rgba(0, 0, 0, 0.8);
+                color: #aaaaaa;
+            }
+            #slide-1:checked ~ .control-1,
+            #slide-2:checked ~ .control-2,
+            #slide-3:checked ~ .control-3 {
+                display: block;
+            }
+            .slide-indicador {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                position: absolute;
+                bottom: 2%;
+                left: 0;
+                right: 0;
+                text-align: center;
+                z-index: 10;
+                
+           }
+            .slide-indicador li {
+                display: inline-block;
+                margin: 0 5px;
+            }
+            .slide-circulo {
+                color: #828282;
+                cursor: pointer;
+                display: block;
+                font-size: 35px;
+            }
+            .slide-circulo:hover {
+                color: #aaaaaa;
+            }
+            #slide-1:checked ~ .control-1 ~ .slide-indicador 
+                 li:nth-child(1) .slide-circulo,
+            #slide-2:checked ~ .control-2 ~ .slide-indicador 
+                  li:nth-child(2) .slide-circulo,
+            #slide-3:checked ~ .control-3 ~ .slide-indicador 
+                  li:nth-child(3) .slide-circulo {
+                color: #428bca;
+            }
+            #titulo {
+                width: 100%;
+                position: absolute;
+                padding: 0px;
+                margin: 0px auto;
+                text-align: center;
+                font-size: 27px;
+                color: rgba(255, 255, 255, 1);
+                font-family: 'Open Sans', sans-serif;
+                z-index: 9999;
+                text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), 
+                     -1px 0px 2px rgba(255, 255, 255, 0);
+            }
+
+            .nota {
+                color: #69D6FF;
+
+
+
+            }
+
+
+
+</style>
+</head>
+<body background="ajedrez.jpg">
+<center>
+<img src="pizza.jpg" width="60%" height="30%" class="imagen" title="Imagen de una suculenta pizza" alt="Imagen del menú">
+
+<br><br>
+
+<span id="span"></span>
+<span id="span1"></span>
+<center><a href="PRUEBA.html" title="Inicio" alt="Inicio"><button class="boton">Inicio</button></a>
+<a href="menu.html" title="Menú" alt="Menú"><button class="boton">Menú</button></a> 
+<a href="promociones.html" title="Promociones" alt="Promociones"><button class="boton">Promociones</button></a>
+<a href="fiestas.html" title="Fiestas" alt="Fiestas"><button class="boton">Fiestas</button></a>
+<a href="personajes.html" title="Personajes" alt="Personajes"><button class="boton">Personajes</button></a>
+<a href="ubicacion.html" title="Ubicación" alt="Ubicación"><button class="boton">Ubicación</button></a></center>
+
+<hr width="70%">
+<br><br>
+<center><table border="3" width="60%" height="70%" bgcolor="royalblue"><th>
+
+
+    <div class="slide">
+            <div class="slide-inner"><center>
+                <input class="slide-open" type="radio" id="slide-1" 
+                      name="slide" aria-hidden="true" hidden="" checked="checked">
+                <div class="slide-item">
+                    <img src="canva pizza vegetariana.png" alt="Pizza vegetariana" title="Pizza vegetariana">
+                </div>
+                <input class="slide-open" type="radio" id="slide-2" 
+                      name="slide" aria-hidden="true" hidden="">
+                <div class="slide-item">
+                    <img src="CANVA Alitas.png" alt="Alitas" title="Alitas">
+                </div>
+                <input class="slide-open" type="radio" id="slide-3" 
+                      name="slide" aria-hidden="true" hidden="">
+                <div class="slide-item">
+                    <img src="pasteles.png" alt="Pasteles" title="Pasteles">
+                </div>
+                <label for="slide-3" class="slide-control prev control-1" alt="Atrás" title="Atrás">‹</label>
+                <label for="slide-2" class="slide-control next control-1" alt="Siguiente" title="Siguiente">›</label>
+                <label for="slide-1" class="slide-control prev control-2" alt="Atrás" title="Atrás">‹</label>
+                <label for="slide-3" class="slide-control next control-2" alt="Siguiente" title="Siguiente">›</label>
+                <label for="slide-2" class="slide-control prev control-3" alt="Atrás" title="Atrás">‹</label>
+                <label for="slide-1" class="slide-control next control-3" alt="Siguiente" title="Siguiente">›</label>
+                <ol class="slide-indicador">
+                    <li>
+                        <label for="slide-1" class="slide-circulo">•</label>
+                    </li>
+                    <li>
+                        <label for="slide-2" class="slide-circulo">•</label>
+                    </li>
+                    <li>
+                        <label for="slide-3" class="slide-circulo">•</label>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <br><br>
+        <p><font face="" class="nota">NOTA: ESTA PÁGINA ESTA HECHA CON EL FIN DE PURA <h3>PRÁCTICA</h3></p>
+            <p>PD.ESTO NO ESTA PATROCINADO POR NADA NI NADIE NI ES MOTIVO PARA FINES DE LUCRO, SOLO ES HECHA POR DIVERSIÓN POR FANS DEL JUEGO &#128518, y porque me lo dejaron de tarea xD</font></p>
+    </th></table></center>
+
+<br><br>
+<center><table border="1" width="60%" height="10%" class="tabla"><tr><th><a href="domicilio2.html" title="Click aquí" alt="Click aquí"><h1><span class="pan">Pide a domicilio</span></a> 
+</tr></th></table></center>
+
+</body>
+</html>

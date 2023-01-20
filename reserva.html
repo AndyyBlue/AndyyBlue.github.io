@@ -1,0 +1,93 @@
+
+<html>
+    <head>
+    <meta http-equiv="Content-Type"  charset="utf-8">
+    <link rel="shortcut icon" href="logo.jpg">
+    <title>RESERVA</title>
+    <style type="text/css">
+
+
+h1 {
+padding:  8px;
+margin:   10px;
+font-size: 50;
+color: red;
+text-shadow: 0  0 5px black;
+}
+
+.boton  {
+width:  18%;
+heigth:  20%;
+font-size: 25;
+font-family: impactic;
+color: red;
+background: #bdf2ef;
+}
+
+.boton span {
+
+transition: .4s ease-in-out all;
+position:relative;
+top: -20px;
+right: 2px;
+}
+
+.boton:hover {
+background: #bdf2ef;
+box-shadow: 0 0 10px #c5efed, 0 0 40px #81e1dd, 0 0 80px #5efffa;
+
+}
+
+.boton:hover span {
+right: -18%;
+color: #33e3da;
+}
+
+.boton  .icono {
+display: flex;
+align-items: center;
+position:relative;
+z-index: 2;
+left: 200px;
+top: 45px;
+transition:  .3s ease-in-out all;
+widht: 100;
+height: 50;
+opacity: 0;
+}
+
+.boton svg {
+width: 35%;
+color: rgb(243, 139, 139);
+}
+
+.boton:hover .icono {
+opacity: 1;
+left: calc(100% - 244px);
+
+}
+    
+    
+    
+    </style>
+    </head>
+    
+    <body background="ajedrez.jpg">
+    
+    <h1>
+    <center><font face="Forte"><h5> ¡Gracias por reservar, vuelva pronto :D!</h5>
+    <img src="ballon boy.png" height="400" width="400" title="HELLO!" alt="HELLO!">
+    </center>
+    
+    <a href="fiestas.html" title="Salir de aquí" alt="Salir de aquí"><button class="boton" >
+        <div class="icono">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="200" fill="currentColor" class="bi bi-box-arrow-left" viewBox="0 0 40 40">
+              <path fill-rule="evenodd" d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0v2z"/>
+              <path fill-rule="evenodd" d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z"/>
+            </svg>
+            </div>
+            <span><font face="cooper">Salir de aquí</font></span></button>
+            </h1>
+    
+    </body>
+    </html>

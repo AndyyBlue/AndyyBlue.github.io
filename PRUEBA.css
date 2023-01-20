@@ -1,0 +1,108 @@
+* {
+padding: 0px;
+margin: 0px;
+color: black;
+}
+
+
+body {
+
+color: #fcff5c;
+
+}
+.imagen {
+
+box-shadow: 0 0 10px #edabb1, 0 0 80px #ff384a, 0 0 125px #ab0715;
+
+
+}
+
+
+.home {
+display: flex;
+}
+
+
+
+.in-flex:first-child {
+flex: 2;
+padding: 25px;
+}
+
+.in-flex div {
+padding: 25px;
+margin: 20px;
+ 
+}
+
+
+
+.boton {
+background: royalblue;
+color: white;
+position: relative;
+display: inline-block;
+padding: 15px  10px;
+letter-spacong: 4px;
+font-size: 24px;
+text-decoracion: none;
+overflow: hidden;
+transition: 0.2s;
+}
+.boton:hover {
+border: 0;
+background: #7eb6ce;
+box-shadow: 0 0 10px #b1ddb1, 0 0 80px #42b4e0, 0 0 125px #005c00;
+transition-delay: 0s;
+color: yellow;
+height: 10%;
+width: 10%;
+}
+
+.boton span {
+position: absolute;
+display: block;
+}
+
+.boton span1 {
+top: 0;
+left: -100%;
+width: 100%;
+height: 1px;
+background: linear- gradient(90deg,transparent,#3046c0);
+columns: none;
+}
+
+.tabla {
+background: black;
+
+
+}
+
+.tabla:hover {
+background: white;
+
+}
+
+.pan {
+font-size: 47;
+
+}
+
+.pan:hover {
+color: #b48541;
+font-size: 80;
+}
+
+
+.nota {
+
+color: #46fffc;
+font-family: verdana;
+}
+
+
+
+
+
+
